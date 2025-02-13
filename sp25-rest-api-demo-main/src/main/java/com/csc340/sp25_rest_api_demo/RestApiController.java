@@ -154,8 +154,8 @@ class DogController {
     @GetMapping
     public List<Dog> getAllDogs() {
         return Arrays.asList(
-                new Dog(1, "Labrador Retriever", "Companion", "10-12 years", "Friendly, Energetic",,
-                new Dog(2, "German Shepherd", "Herding", "9-13 years", "Intelligent, Loyal",)
+                new Dog(1, "Labrador Retriever", "Companion", "10-12 years", "Friendly, Energetic"),
+                new Dog(2, "German Shepherd", "Herding", "9-13 years", "Intelligent, Loyal")
         );
     }
 }
